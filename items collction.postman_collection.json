@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "3bf84ffe-285c-498f-92e7-749acb830ac6",
+		"name": "items collction",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "trigger",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/trigger?delay_value=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"trigger"
+					],
+					"query": [
+						{
+							"key": "delay_value",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "trigger",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/trigger?delay_value=3",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"trigger"
+							],
+							"query": [
+								{
+									"key": "delay_value",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.3.2 Python/3.10.11"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 03 May 2023 19:36:18 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2149"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"response_bodies\": [\n        \"{\\n  \\\"args\\\": {}, \\n  \\\"data\\\": \\\"\\\", \\n  \\\"files\\\": {}, \\n  \\\"form\\\": {}, \\n  \\\"headers\\\": {\\n    \\\"Accept\\\": \\\"*/*\\\", \\n    \\\"Accept-Encoding\\\": \\\"gzip, deflate\\\", \\n    \\\"Host\\\": \\\"httpbin.org\\\", \\n    \\\"User-Agent\\\": \\\"python-requests/2.29.0\\\", \\n    \\\"X-Amzn-Trace-Id\\\": \\\"Root=1-6452b7af-5d92d1ce01dfa0bb0729e938\\\"\\n  }, \\n  \\\"origin\\\": \\\"152.58.1.207\\\", \\n  \\\"url\\\": \\\"https://httpbin.org/delay/3\\\"\\n}\\n\",\n        \"{\\n  \\\"args\\\": {}, \\n  \\\"data\\\": \\\"\\\", \\n  \\\"files\\\": {}, \\n  \\\"form\\\": {}, \\n  \\\"headers\\\": {\\n    \\\"Accept\\\": \\\"*/*\\\", \\n    \\\"Accept-Encoding\\\": \\\"gzip, deflate\\\", \\n    \\\"Host\\\": \\\"httpbin.org\\\", \\n    \\\"User-Agent\\\": \\\"python-requests/2.29.0\\\", \\n    \\\"X-Amzn-Trace-Id\\\": \\\"Root=1-6452b7b0-143b3396577c78063ffcda6f\\\"\\n  }, \\n  \\\"origin\\\": \\\"152.58.1.207\\\", \\n  \\\"url\\\": \\\"https://httpbin.org/delay/3\\\"\\n}\\n\",\n        \"{\\n  \\\"args\\\": {}, \\n  \\\"data\\\": \\\"\\\", \\n  \\\"files\\\": {}, \\n  \\\"form\\\": {}, \\n  \\\"headers\\\": {\\n    \\\"Accept\\\": \\\"*/*\\\", \\n    \\\"Accept-Encoding\\\": \\\"gzip, deflate\\\", \\n    \\\"Host\\\": \\\"httpbin.org\\\", \\n    \\\"User-Agent\\\": \\\"python-requests/2.29.0\\\", \\n    \\\"X-Amzn-Trace-Id\\\": \\\"Root=1-6452b7b0-6951bd94776b4b213ca0d1a9\\\"\\n  }, \\n  \\\"origin\\\": \\\"152.58.1.207\\\", \\n  \\\"url\\\": \\\"https://httpbin.org/delay/3\\\"\\n}\\n\",\n        \"{\\n  \\\"args\\\": {}, \\n  \\\"data\\\": \\\"\\\", \\n  \\\"files\\\": {}, \\n  \\\"form\\\": {}, \\n  \\\"headers\\\": {\\n    \\\"Accept\\\": \\\"*/*\\\", \\n    \\\"Accept-Encoding\\\": \\\"gzip, deflate\\\", \\n    \\\"Host\\\": \\\"httpbin.org\\\", \\n    \\\"User-Agent\\\": \\\"python-requests/2.29.0\\\", \\n    \\\"X-Amzn-Trace-Id\\\": \\\"Root=1-6452b7b0-086c5fa969edb1286c78e316\\\"\\n  }, \\n  \\\"origin\\\": \\\"152.58.1.207\\\", \\n  \\\"url\\\": \\\"https://httpbin.org/delay/3\\\"\\n}\\n\",\n        \"{\\n  \\\"args\\\": {}, \\n  \\\"data\\\": \\\"\\\", \\n  \\\"files\\\": {}, \\n  \\\"form\\\": {}, \\n  \\\"headers\\\": {\\n    \\\"Accept\\\": \\\"*/*\\\", \\n    \\\"Accept-Encoding\\\": \\\"gzip, deflate\\\", \\n    \\\"Host\\\": \\\"httpbin.org\\\", \\n    \\\"User-Agent\\\": \\\"python-requests/2.29.0\\\", \\n    \\\"X-Amzn-Trace-Id\\\": \\\"Root=1-6452b7b0-610491ab4c204bd04f8d15bf\\\"\\n  }, \\n  \\\"origin\\\": \\\"152.58.1.207\\\", \\n  \\\"url\\\": \\\"https://httpbin.org/delay/3\\\"\\n}\\n\"\n    ],\n    \"time_taken\": \"5.35\"\n}"
+				}
+			]
+		},
+		{
+			"name": "items",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"url": "http://127.0.0.1:5000/items"
+			},
+			"response": [
+				{
+					"name": "items",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"item\":\"bags\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://127.0.0.1:5000/items"
+					},
+					"status": "BAD REQUEST",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/2.3.2 Python/3.10.11"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 03 May 2023 18:02:59 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "64"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": {\n        \"item\": [\n            \"Invalid value.\"\n        ]\n    }\n}"
+				}
+			]
+		}
+	]
+}
